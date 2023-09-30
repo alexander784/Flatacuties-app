@@ -3,3 +3,9 @@ body{
     color: #000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+header{
+    background-color: aqua;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
