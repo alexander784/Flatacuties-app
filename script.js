@@ -11,3 +11,10 @@ animalData.forEach(animal => {
   animalList.appendChild(listItem);
       
 });
+
+//display animal details
+function showAnimalDetails(animal) {
+  animalVotes,textContent = `Votes: ${animal.votes}`};
+
+  voteButton.addEventListener("click", () => voteForAnimal(animal));
+  
