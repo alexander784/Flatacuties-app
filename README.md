@@ -1,7 +1,6 @@
 <h1>Flatacuties App</h1>
 
-<h1>Flatacuties Cuties Animal Voting App<h1>
-
+<h3>Flatacuties Cuties Animal Voting App<h3>
 <p>interactive app that allows users to vote for the cutest animals from a list of adorable contenders.</p>
 
 <h1>Author:</h1>
