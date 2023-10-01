@@ -24,3 +24,7 @@ function showAnimalDetails(animal) {
     animal.votes++;
     animalVotes.textContent = `Votes: ${animal.votes}`;
 }
+
+// Initially show details for the first animal
+showAnimalDetails(animalData[0]);
+
