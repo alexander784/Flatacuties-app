@@ -19,11 +19,12 @@ h1{
     gap: 10px;
 }
 
-.animal-name{
-    background-color: #00f;
+#animal-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
     padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .animal-name:hover {
