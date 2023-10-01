@@ -16,11 +16,12 @@ main{
     justify-content: space-between;
 }
 .animal-list{
-    flex: 1;
-    background-color: blue;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .animal-name{
