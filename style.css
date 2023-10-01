@@ -9,12 +9,7 @@ h1{
 }
 
 
-main{
-    max-width: 800px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-}
+
 .animal-list{
     list-style: none;
     padding: 0;
@@ -58,5 +53,15 @@ main{
 
 .animal-details p {
     font-size: 18px;
+    margin-top: 10px;
+}
+
+#vote-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
     margin-top: 10px;
 }
