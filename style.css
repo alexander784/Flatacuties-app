@@ -8,8 +8,6 @@ h1{
     margin-top: 20px;
 }
 
-
-
 .animal-list{
     list-style: none;
     padding: 0;
@@ -50,9 +48,9 @@ h1{
 }
 
 
-.animal-details p {
+#animal-votes {
+    font-weight: bold;
     font-size: 18px;
-    margin-top: 10px;
 }
 
 #vote-button {
