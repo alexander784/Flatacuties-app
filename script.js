@@ -17,4 +17,10 @@ function showAnimalDetails(animal) {
   animalVotes,textContent = `Votes: ${animal.votes}`};
 
   voteButton.addEventListener("click", () => voteForAnimal(animal));
-  
+
+
+  //vote animal
+  function voteForAnimal(animal) {
+    animal.votes++;
+    animalVotes.textContent = `Votes: ${animal.votes}`;
+}
