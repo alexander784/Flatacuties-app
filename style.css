@@ -3,12 +3,11 @@ body{
     color: #000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-header{
-    background-color: aqua;
-    color: #000;
+h1{
     text-align: center;
-    padding: 20px;
+    margin-top: 20px;
 }
+
 
 main{
     max-width: 800px;
