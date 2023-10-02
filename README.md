@@ -3,6 +3,7 @@
 <h3>Flatacuties Cuties Animal Voting App<h3>
 <p>An interactive app that allows users to vote for the cutest animals from a list of adorable contenders.</p>
 
+
 <h1>Author:</h1>
    <p>Alexander Nyaga</p>
 
