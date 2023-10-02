@@ -6,7 +6,7 @@ const apiUrl = 'http://localhost:3000/characters';
 
 let currentAnimal = null; // To store the currently displayed animal
 
-// Fetch animal data from the local API
+// Fetch animal data from the server db.json
 async function fetchAnimalData() {
     try {
         const response = await fetch(apiUrl);
