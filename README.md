@@ -12,6 +12,6 @@
    <h1>Designing the user interface</h1>
    <p>Use HTML and CSS to design a responsive and visually appealing layout.</p>
    <h1>Reading Data from db.json file</h1>
-   <p>You can use the fetch() function to make HTTP requests to the file and retrieve the data in JSON format.</p>
+   <p>You can use the fetch() function to make GET requests to the file and retrieve the data in JSON format.</p>
    <h1>Adding New Animal and Animal Details</h1>
    <p>Add functionality to allow users to add new animal details</p>
