@@ -11,9 +11,11 @@ h1{
 .animal-list{
     list-style: none;
     padding: 0;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: space-between;
+    align-items: center;
     gap: 10px;
 }
 
@@ -23,6 +25,11 @@ h1{
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.2s;
+    list-style: none;
+    display: grid;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
 }
 
 

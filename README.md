@@ -14,4 +14,8 @@
    <p>Use HTML and CSS to design a responsive and visually appealing layout.</p>
    <h1>Reading Data from db.json file</h1>
    <p>You can use the fetch() function to make GET requests to the file and retrieve the data in JSON format.</p>
-   
+   <h1>Setting Up on Vs code</h1>
+   <p>Open VS code</p>
+   <p>Run index.html in the Browser using explorer.exe in the terminal for ubuntu   
+   <h2>License</h2>
+   <p>This project is licensed under the terms of MIT license.
