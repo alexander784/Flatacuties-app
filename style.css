@@ -62,3 +62,13 @@ h1{
     cursor: pointer;
     margin-top: 10px;
 }
+
+footer{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+footer:hover{
+    text-decoration: underline;
+}
