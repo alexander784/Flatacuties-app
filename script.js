@@ -1,36 +1,25 @@
-const animalList = document.getElementById("animal-list");
 const animalImage = document.getElementById('animal-image');
 const animalVotes = document.getElementById("animal-votes");
 const voteButton = document.getElementById("vote-button");
-const apiUrl = 'http://localhost:3000/characters';
+const resetButton = document.getElementById("reset-Button");
 
-let currentAnimal = null; // To store the currently displayed animal
 
 // Fetch animal data from the server db.json
-async function fetchAnimalData() {
-    try {
-        const response = await fetch(apiUrl);
-        if (!response.ok) {
-            throw new Error(`Failed to fetch data: ${response.status}`);
-        }
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error('Error fetching data:', error);
-        return [];
-    }
-}
 
-// Populate the list of animals
-async function populateAnimalList() {
-    const animalData = await fetchAnimalData();
-    animalData.forEach(animal => {
-        const listItem = document.createElement("li");
-        listItem.textContent = animal.name;
-        listItem.addEventListener("click", () => showAnimalDetails(animal));
-        animalList.appendChild(listItem);
+(fetch('http://localhost:3000/characters'))
+.then(response => response.json())
+.then(data => {
+const animalList = document.getElementById("animal-list");
+data.forEach(animal => {
+     const listItem = document.createElement("li");
+     listItem.textContent = animal.name;
+     listItem.addEventListener("click", () => showAnimalDetails(animal));
+     animalList.appendChild(listItem);
     });
-}
+})
+.catch(error => console.error(error));
+
+
 
 // Display animal details
 function showAnimalDetails(animal) {
@@ -47,6 +36,15 @@ function voteForAnimal() {
         animalVotes.textContent = `Votes: ${currentAnimal.votes}`;
     }
 }
+function resetVotes() {
+    if(currentAnimal){
+        currentAnimal.votes = 0;
+        animalVotes.textContent = `Votes: ${currentAnimal.votes};`
 
-// Initially populate the list of animals
-populateAnimalList();
+       }
+    
+}
+
+    
+
+
